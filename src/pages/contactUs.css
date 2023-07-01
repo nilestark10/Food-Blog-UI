@@ -1,9 +1,10 @@
 .socials {
+  width: 73rem;
   height: 25rem;
   background-color: #f8f8f8;
-  padding-left: 3.25rem;
+  padding-left: 6.25rem;
   padding-right: 3.25rem;
-  width: 69rem;
+  gap: 4rem !important;
 }
 .contact-us-logo {
   width: 10.06rem;
@@ -64,6 +65,7 @@
     padding-left: 3.25rem;
     padding-right: 3.25rem;
     width: 70rem;
+    gap: 0.5rem !important;
   }
   .contact-us-logo {
     padding: 0%;
@@ -86,6 +88,7 @@
     flex-direction: column !important;
     padding: 4rem;
     align-items: flex-start !important;
+    gap: 0.5rem !important;
   }
   .contact-us-logo {
     padding-left: 14.5rem;
