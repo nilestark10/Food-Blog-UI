@@ -1,0 +1,40 @@
+.latest-article {
+  padding-left: 6.75rem;
+  padding-top: 9.875rem;
+}
+.header-text {
+  margin-top: 0rem;
+  /* font-family: "Source Sans Pro"; */
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 2.62rem;
+  letter-spacing: 0.1rem;
+  color: #0e2368;
+}
+.actions {
+  padding-left: 33rem;
+  padding-top: 2rem;
+}
+.action-buttons {
+  height: 1.75rem;
+  border-radius: 0.31rem;
+  margin: 1rem;
+}
+
+@media (max-width: 375px) {
+  .latest-article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: max-content;
+    padding: 11rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+  .blog-stack {
+    flex-direction: column !important;
+  }
+  .actions {
+    padding-left: 0rem;
+  }
+}
