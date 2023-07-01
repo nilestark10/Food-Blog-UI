@@ -45,6 +45,12 @@
   letter-spacing: 0.1rem;
 }
 
+@media (max-width: 1190px) and (min-width: 375px) {
+  .about-us-box {
+    width: 77rem;
+  }
+}
+
 @media (max-width: 375px) {
   .about-us-box {
     width: max-content;

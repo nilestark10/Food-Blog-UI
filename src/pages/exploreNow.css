@@ -15,14 +15,14 @@
   padding-top: 2.06rem;
 }
 
-.bestfoodbox {
+.best-food-box {
   width: 21.562rem;
   height: 12.937;
   padding-left: 6.25rem;
   padding-top: 5.68rem;
 }
 
-.discovertext {
+.discover-text {
   font-family: "Sans Pro";
   font-size: 3.875rem;
   font-weight: 700;
@@ -32,7 +32,7 @@
   color: #0e2368;
   margin: 0%;
 }
-.besttext {
+.best-text {
   font-family: "Source Sans Pro";
   font-size: 3.875rem;
   font-weight: 700;
@@ -42,7 +42,7 @@
   color: #e23744;
   margin: 0%;
 }
-.subtext {
+.sub-text {
   width: 19.562rem;
   height: 3.437rem;
   /* top: 460px; */
@@ -57,7 +57,7 @@
   color: #444957;
 }
 
-.explorenowbutton {
+.explore-now-button {
   background-color: #e23744;
   width: 11.875em;
   height: 3.975rem;
@@ -97,6 +97,16 @@
   height: 50.25rem;
 }
 
+@media (max-width: 1190px) and (min-width: 375px) {
+  .red-border {
+    padding-left: 30rem;
+    left: 0rem;
+  }
+  .get-in-touch {
+    visibility: hidden;
+  }
+}
+
 /* mobile */
 @media (max-width: 375px) {
   .main-page {
@@ -129,7 +139,7 @@
     padding-top: 5.68rem;
   }
 
-  .discovertext {
+  .discover-text {
     font-family: "Sans Pro";
     font-size: 3.875rem;
     font-weight: 700;
@@ -139,7 +149,7 @@
     color: #0e2368;
     margin: 0%;
   }
-  .besttext {
+  .best-text {
     font-family: "Source Sans Pro";
     font-size: 3.875rem;
     font-weight: 700;
@@ -149,7 +159,7 @@
     color: #e23744;
     margin: 0%;
   }
-  .subtext {
+  .sub-text {
     width: 19.562rem;
     height: 3.437rem;
     /* top: 460px; */
@@ -164,7 +174,7 @@
     color: #444957;
   }
 
-  .explorenowbutton {
+  .explore-now-button {
     margin-left: 0rem;
   }
   .get-in-touch {
@@ -173,10 +183,5 @@
   .red-border {
     left: 0%;
     top: 0%;
-  }
-  .pizza-image {
-    /* max-width: 100rem; */
-  }
-  .get-buttton {
   }
 }

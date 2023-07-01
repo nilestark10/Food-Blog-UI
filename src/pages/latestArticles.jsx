@@ -71,8 +71,8 @@ const LatestArticles = () => {
       <HStack className="blog-stack">
         {pageNumber === 1 ? FirstPage : SecondPage}
       </HStack>
-      <HStack>
-        <Box className="actions">
+      <HStack className="actions">
+        <Box>
           <Button className="action-buttons" onClick={prevPage}>
             <ChevronLeftIcon />
           </Button>

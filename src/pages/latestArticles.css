@@ -1,5 +1,6 @@
 .latest-article {
-  padding-left: 6.75rem;
+  padding-left: 3.25rem;
+  padding-right: 3.25rem;
   padding-top: 9.875rem;
 }
 .header-text {
@@ -11,14 +12,25 @@
   letter-spacing: 0.1rem;
   color: #0e2368;
 }
+.blog-stack {
+  gap: 8.5rem !important;
+}
 .actions {
-  padding-left: 33rem;
+  justify-content: center;
   padding-top: 2rem;
 }
 .action-buttons {
   height: 1.75rem;
   border-radius: 0.31rem;
   margin: 1rem;
+}
+
+@media (max-width: 1190px) and (min-width: 375px) {
+  .latest-article {
+    width: 70.5rem;
+    padding-right: 3.25rem;
+    padding-left: 3.25rem;
+  }
 }
 
 @media (max-width: 375px) {

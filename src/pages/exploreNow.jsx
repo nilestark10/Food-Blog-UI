@@ -10,19 +10,19 @@ const ExploreNow = () => {
     <Box className="main-page">
       <Box className="logo-box">
         <Image src={logoImage} alt="logo" className="logo" />
-        <Stack className="bestfoodbox">
-          <Text className="discovertext">Discover the</Text>
+        <Stack className="best-food-box ">
+          <Text className="discover-text">Discover the</Text>
           <HStack>
-            <Text className="besttext">Best </Text>
-            <Text className="discovertext">Food</Text>
+            <Text className="best-text">Best </Text>
+            <Text className="discover-text">Food</Text>
           </HStack>
-          <Text className="discovertext">and Drinks</Text>
+          <Text className="discover-text">and Drinks</Text>
         </Stack>
-        <Text className="subtext">
+        <Text className="sub-text">
           Naturally made Healthcare Products for the better care & support of
           your body.
         </Text>
-        <Button className="explorenowbutton">Explore Now!</Button>
+        <Button className="explore-now-button">Explore Now!</Button>
       </Box>
       <Box className="pizza">
         <Button className="get-in-touch">Get In Touch</Button>

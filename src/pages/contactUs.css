@@ -1,15 +1,18 @@
 .socials {
   height: 25rem;
+  background-color: #f8f8f8;
+  padding-left: 3.25rem;
+  padding-right: 3.25rem;
+  width: 69rem;
 }
 .contact-us-logo {
   width: 10.06rem;
   height: 7.81rem;
-  padding-left: 6.5rem;
 }
 .contact {
-  width: 14rem;
+  width: 9rem;
   height: 11.62rem;
-  padding-left: 13.12rem;
+  padding-left: 8rem;
 }
 .contact-header {
   /* font-family: "Source Sans Pro "; */
@@ -27,7 +30,7 @@
 }
 .more {
   height: 11.63rem;
-  padding-left: 12rem;
+  padding-left: 9rem;
 }
 .link-header {
   /* font-family: "Source Sans Pro "; */
@@ -40,7 +43,7 @@
   max-height: 11.63rem;
   display: flex;
   flex-direction: column;
-  padding-left: 13rem;
+  padding-left: 9rem;
 }
 .links {
   width: 1.31rem;
@@ -56,8 +59,30 @@
   color: #828b9c;
 }
 
+@media (max-width: 1190px) and (min-width: 375px) {
+  .socials {
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+    width: 70rem;
+  }
+  .contact-us-logo {
+    padding: 0%;
+  }
+  .contact {
+    padding-left: 7.12rem;
+  }
+  .more {
+    padding-left: 8rem;
+  }
+  .social-links {
+    padding-left: 9rem;
+  }
+}
+
 @media (max-width: 375px) {
   .socials {
+    width: 38rem;
+    height: 40rem;
     flex-direction: column !important;
     padding: 4rem;
     align-items: flex-start !important;
